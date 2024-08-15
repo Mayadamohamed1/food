@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+.food{
+    transition: color .5s;
+}
+.food:hover{
+color: red !important;
+}
+.nav-link{
+    padding-inline: 40px !important;
+    transition: all .5s;
+}
+.nav-link:hover{
+    color: rgb(245, 245, 9);
+    scale: 1.1;
+}
+    /* header */
+    .fastDel{
+        padding: 10px;
+        border-radius: 15px;
+background-color: color-mix(in srgb, orange, transparent 93%);
+    }
+    
+    .icon{
+        border: 2px solid rgb(245, 245, 9) ;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+     
+        
+    }
+    .icon-i{
+        width: 60px;
+        height: 60px;
+        position: relative; /* or relative */
+  left: 50%;
+  top: 10%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+    }
+    .inner{
+        transition: all .5s;
+    }
+    .inner:hover{
+        scale: .9;
+        border: 1px solid orange !important;
+    }
+    img{
+        transition: all .5s;
+    }
+    .inner:hover img{
+        scale: .8;
+    }
+    .child{
+       width: 50px;
+       height: 50px;
+border:1px solid yellow;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 12px;
+transition: all .5s;
+    }
+    .child:hover{
+        background-color: rgb(245, 245, 9);
+    }
+    .child.active{
+        background-color: rgb(245, 245, 9);
+    }
+    .inner-content p{
+        font-size: 14px;
+    }
+    .delv{
+        background-color: color-mix(in srgb, orange, transparent 88%);;
+    }
+    /* .line{
+        width: 60px;
+        height: 3px;
+        background-color:  gray;
+        
+    } */
+   
+     .footer{
+        background-color: rgb(2, 2, 39);
+        padding: 50px;
+     }
+     a{
+        text-decoration: none;
+        color: white;
+    
+     }
+     .form-lertter {
+     margin-top: 30px;
+     margin-bottom: 15px;
+     padding: 6px 8px;
+     position: relative;
+     background-color: 
+ color-mix(in srgb, var(--background-color), transparent 50%);
+     border: 1px solid 
+ color-mix(in srgb, var(--default-color), transparent 90%);
+     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+     display: flex;
+     transition: 0.3s;
+     border-radius: 4px;
+     justify-content: center;
+     align-items: center;
+     
+     }
+
+     
